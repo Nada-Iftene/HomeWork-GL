@@ -8,7 +8,7 @@ public class Personne {
 	public String nom;
 	public String prenom;
 	private int age;
-
+   //constructeur
 	public Personne(String nom, String prenom, int age) {
 
 		this.nom = nom;
@@ -22,10 +22,10 @@ public class Personne {
 	}
 	public void setNom(String nom) {
 		this.nom = nom;	}
-public String getPrenom() {
+    public String getPrenom() {
 		return prenom;
 	}
-public void setPrenom(String prenom) {
+    public void setPrenom(String prenom) {
 		this.prenom = prenom;}
 	public int getAge() {
 		return age;	}
